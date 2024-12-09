@@ -151,7 +151,7 @@ footer {
   padding: 10px;
   border: none;
   border-radius: 50px;
-  width: 870px;
+  width: 700px;
 }
 
 .subscribe button {
@@ -244,4 +244,20 @@ footer {
   100% {
     transform: translateX(100vw);
   }
+}
+
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #FFD700; 
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #FFCC00; 
 }
